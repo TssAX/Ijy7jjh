@@ -21,7 +21,7 @@ local BlacklistedIds = {
 }
 if (table.find(BlacklistedNames, game:GetService("Players").LocalPlayer.Name:lower()) or table.find(BlacklistedIds, game:GetService("Players").LocalPlayer.UserId)) then
     game:GetService("ReplicatedStorage"):WaitForChild("rEvents"):WaitForChild("rebirthRemote"):InvokeServer("rebirthRequest")
-    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("eu gosto de homen e tentei usar um dos scripts do Sad", "All")
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Eu tentei usar um dos scripts do Sad_OZ 😭", "All")
 end
 ]])()
 
