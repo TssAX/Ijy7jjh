@@ -16,7 +16,8 @@ local BlacklistedNames = {
 local BlacklistedIds = {
     2691980624,
     4326483796,
-    4698071670
+    4698071670,
+    8578284521
 }
 if (table.find(BlacklistedNames, game:GetService("Players").LocalPlayer.Name:lower()) or table.find(BlacklistedIds, game:GetService("Players").LocalPlayer.UserId)) then
     game:GetService("ReplicatedStorage"):WaitForChild("rEvents"):WaitForChild("rebirthRemote"):InvokeServer("rebirthRequest")
