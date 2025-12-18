@@ -11,7 +11,7 @@ local BlacklistedNames = {
     "saitamabr70",
     "fx_zeusmc",
     "ravyphyetro1",
-    "SadNii4"
+    "sadnii4"
 }
 local BlacklistedIds = {
     2691980624,
